@@ -1,0 +1,1385 @@
+{
+    "questions": [
+      {
+        "question": "Which is the most popular JavaScript framework?",
+        "options": ["Angular", "React", "Svelte", "Vue"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which company invented React?",
+        "options": ["Google", "Apple", "Netflix", "Facebook"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What's the fundamental building block of React apps?",
+        "options": ["Components", "Blocks", "Elements", "Effects"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What's the name of the syntax we use to describe the UI in React components?",
+        "options": ["FBJ", "Babel", "JSX", "ES2015"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "How does data flow naturally in React apps?",
+        "options": [
+          "From parents to children",
+          "From children to parents",
+          "Both ways",
+          "The developers decides"
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How to pass data into a child component?",
+        "options": ["State", "Props", "PropTypes", "Parameters"],
+        "correctOption": 1,
+        "points": 10
+      },
+
+      {
+        "question": "Explain the concept of Context API in React and its use cases for sharing data across components without explicit prop drilling.",
+        "options": [
+          "Context API provides a way to share data across the component tree without prop drilling, especially useful for global or theme-related data",
+          "Context API is an alternative to Redux for state management.",
+          "Context API is used for managing asynchronous operations in React components.",
+          "Context API is for defining custom hooks."
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "When to use derived state?",
+        "options": [
+          "Whenever the state should not trigger a re-render",
+          "Whenever the state can be synchronized with an effect",
+          "Whenever the state should be accessible to all components",
+          "Whenever the state can be computed from another state variable"
+        ],
+        "correctOption": 3,
+        "points": 30
+      },
+      {
+        "question": "What triggers a UI re-render in React?",
+        "options": [
+          "Running an effect",
+          "Passing props",
+          "Updating state",
+          "Adding event listeners to DOM elements"
+        ],
+        "correctOption": 2,
+        "points": 20
+      },
+      {
+        "question": "When do we directly \"touch\" the DOM in React?",
+        "options": [
+          "When we need to listen to an event",
+          "When we need to change the UI",
+          "When we need to add styles",
+          "Almost never"
+        ],
+        "correctOption": 3,
+        "points": 20
+      },
+      {
+        "question": "Explain the concept of Higher-Order Components (HOCs) in React and their use cases.",
+        "options": [
+          "HOCs are a pattern for creating reusable components that wrap other components and add functionality without modifying the original component",
+          "HOCs are used to define component styles globally.",
+          "HOCs are a way to share state between unrelated components.",
+          "HOCs are for optimizing server-side rendering performance."
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+  
+      
+      {
+        "question": "In what situation do we use a callback to update state?",
+        "options": [
+          "When updating the state will be slow",
+          "When the updated state is very data-intensive",
+          "When the state update should happen faster",
+          "When the new state depends on the previous state"
+        ],
+        "correctOption": 3,
+        "points": 30
+      },
+      {
+        "question": "If we pass a function to useState, when will that function be called?",
+        "options": [
+          "On each re-render",
+          "Each time we update the state",
+          "Only on the initial render",
+          "The first time we update the state"
+        ],
+        "correctOption": 2,
+        "points": 30
+      },
+      {
+        "question": "Which hook to use for an API request on the component's initial render?",
+        "options": ["useState", "useEffect", "useRef", "useReducer"],
+        "correctOption": 1,
+        "points": 10
+      },
+
+      {
+        "question": "Explain the concept of Context API in React and its use cases for sharing data across components without explicit prop drilling.",
+        "options": [
+          "Context API provides a way to share data across the component tree without prop drilling, especially useful for global or theme-related data.",
+          "Context API is an alternative to Redux for state management.",
+          "Context API is used for managing asynchronous operations in React components.",
+          "Context API is for defining custom hooks."
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "Explain the concept of Context API in React and its use cases for sharing data across components without explicit prop drilling.",
+        "options": [
+          "Context API is an alternative to Redux for state management.",
+          "Context API is used for managing asynchronous operations in React components.",
+          "Context API is for defining custom hooks.",
+          "Context API provides a way to share data across the component tree without prop drilling, especially useful for global or theme-related data."
+
+        ],
+        "correctOption": 3,
+        "points": 20
+      },
+      {
+        "question": "Which variables should go into the useEffect dependency array?",
+        "options": [
+          "Usually none",
+          "All our state variables",
+          "All state and props referenced in the effect",
+          "All variables needed for clean up"
+        ],
+        "correctOption": 2,
+        "points": 30
+      },
+      {
+        "question": "An effect will always run on the initial render.",
+        "options": [
+          "True",
+          "It depends on the dependency array",
+          "False",
+          "In depends on the code in the effect"
+        ],
+        "correctOption": 0,
+        "points": 30
+      },
+
+      {
+        "question": "Describe the `React.memo` function and its purpose for performance optimization.",
+        "options": [
+          "React.memo is used to memoize (cache) component results, preventing unnecessary re-renders if props haven't changed. ",
+          "React.memo is for managing asynchronous operations in React components.",
+          "React.memo is a way to define custom hooks.",
+          "React.memo is used for server-side rendering optimization."
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "When will an effect run if it doesn't have a dependency array?",
+        "options": [
+          "Only when the component mounts",
+          "Only when the component unmounts",
+          "The first time the component re-renders",
+          "Each time the component is re-rendered"
+        ],
+        "correctOption": 3,
+        "points": 20
+      }
+
+      ,
+      {
+        "question": "What lifecycle method is called immediately after a component is mounted (inserted into the DOM)?",
+        "options": ["componentWillMount", "componentDidMount ", 
+        "shouldComponentUpdate",
+         "getDerivedStateFromProps"],
+        "correctOption": 1,
+        "points": 15
+      },
+      {
+        "question": "How do you pass data from a parent component to a child component in React?",
+        "options": ["Global variables", "Direct DOM manipulation", "Props ", "Events"],
+        "correctOption": 2,
+        "points": 15
+      },
+      {
+        "question": "What is the purpose of the `state` in React components?",
+        "options": ["To store data that can change dynamically ",
+         "To define component styles", "To hold static component data",
+          "To manage event listeners"],
+        "correctOption": 0,
+        "points": 15
+      },
+      {
+        "question": "What is the difference between virtual DOM and real DOM in React?",
+        "options": ["Virtual DOM is a lightweight representation of the real DOM, used for efficient updates.",
+         "Virtual DOM is for server-side rendering, real DOM for client-side rendering.",
+          "There's no difference, they are the same.",
+           "Virtual DOM is a future technology not yet used in React."],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "What is the role of a state management library like Redux in React applications?",
+        "options": ["To centralize application state, making it easier to manage and access from different components",
+         "To handle user interactions and events.",
+          "To optimize rendering performance.",
+           "To define component lifecycles."],
+        "correctOption": 0,
+        "points": 20
+      },
+
+      {
+        "question": "How can you implement server-side rendering (SSR) with React and what are its advantages?",
+        "options": [
+          "SSR allows rendering the initial page on the server, improving SEO and initial load times. It can be implemented with libraries like Next.js.",
+          "SSR is only possible with Redux for state management.",
+          "SSR is not recommended for modern React applications.",
+          "SSR is a future feature of React."
+        ],
+        "correctOption": 0,
+        "points": 20
+      },
+  
+
+
+      {
+        "question": "What are some common ways to handle user input (like form submissions) in React?",
+        "options": ["Direct DOM manipulation",
+         "Event listeners with state updates ", 
+         "Using a third-party library for all forms.",
+          "There's no built-in way to handle user input in React."],
+        "correctOption": 1,
+        "points": 20
+      },
+      {
+        "question": "What is the concept of conditional rendering in React, and how is it achieved?",
+        "options": ["Dynamically displaying or hiding content based on state or props. Achieved with JSX expressions or ternary operators",
+         "Adding or removing elements from the DOM after rendering.", "Changing element styles based on conditions.",
+          "There's no concept of conditional rendering in React."],
+        "correctOption": 0,
+        "points": 20
+      },
+      {
+        "question": "What are some benefits of using React for building web applications?",
+        "options": ["Improved performance with virtual DOM", 
+        "Component-based architecture for maintainability",
+         "Declarative and reusable code", "All of the above "],
+        "correctOption": 3,
+        "points": 20
+      },
+
+      {
+        "question": "How can you implement server-side rendering (SSR) with React and what are its advantages?",
+        "options": [
+          "SSR allows rendering the initial page on the server, improving SEO and initial load times. It can be implemented with libraries like Next.js.",
+          "SSR is only possible with Redux for state management.",
+          "SSR is not recommended for modern React applications.",
+          "SSR is a future feature of React."
+        ],
+        "correctOption": 0,
+        "points": 20
+      }
+  
+
+
+      
+    ],
+
+    "beginner":[
+      {
+        "question": "What does JSX stand for?",
+        "options": ["JavaScript Syntax Extension", "Java Script XML", "Just Some XML", "None of the above"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useState` hook?",
+        "options": ["Managing state in functional components", "Fetching data", "Handling side effects", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How do you pass data from a parent component to a child component?",
+        "options": ["Props", "State", "Context", "Redux"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the lifecycle method called that runs after a component is updated?",
+        "options": ["componentDidMount", "componentDidUpdate", "componentWillUnmount", "shouldComponentUpdate"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the difference between `useEffect` and `useLayoutEffect`?",
+        "options": ["useEffect runs after DOM mutations, useLayoutEffect runs before", "useEffect runs before DOM mutations, useLayoutEffect runs after", "They are the same", "useEffect is for state updates, useLayoutEffect is for side effects"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `key` prop in React lists?",
+        "options": ["For styling", "To identify unique elements", "For performance optimization", "It's optional"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is JSX?",
+        "options": ["A programming language", "A library", "A syntax extension for JavaScript", "A markup language"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "How do you conditionally render elements in React?",
+        "options": ["Using if/else statements", "Using the ternary operator", "Using the `render` prop", "All of the above"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `Fragment` component?",
+        "options": ["To group elements without adding extra nodes to the DOM", "To create reusable components", "To manage state", "For styling"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the difference between controlled and uncontrolled components?",
+        "options": ["Controlled components have their state managed by React, uncontrolled components have their state managed by the DOM", "Controlled components are class components, uncontrolled components are functional components", "There is no difference", "Controlled components are for forms, uncontrolled components are for other elements"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the role of `props` in React?",
+        "options": ["Passing data from child to parent components", "Managing component state", "Defining component structure", "Passing data from parent to child components"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `ref` attribute in React?",
+        "options": ["Creating references to DOM elements", "Managing component state", "Passing data between components", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the `context` API used for in React?",
+        "options": ["Sharing data globally without prop drilling", "Managing component state", "Performing side effects", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useReducer` hook?",
+        "options": ["Managing complex state logic", "Fetching data", "Handling side effects", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the difference between functional and class components?",
+        "options": ["Functional components use hooks, class components use lifecycle methods", "Functional components are simpler, class components are more complex", "Functional components are stateless, class components can manage state", "All of the above"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `memo` higher-order component?",
+        "options": ["Memoizing components for performance optimization", "Creating reusable components", "Managing component state", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the `strict mode` in React?",
+        "options": ["A mode for development to help identify potential issues", "A mode for production to optimize performance", "A mode for styling components", "A mode for managing state"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useCallback` hook?",
+        "options": ["Memoizing callback functions", "Managing component state", "Handling side effects", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the `useMemo` hook used for?",
+        "options": ["Memoizing values", "Managing component state", "Handling side effects", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useImperativeHandle` hook?",
+        "options": ["Exposing a ref to the parent component", "Managing component state", "Handling side effects", "Styling components"],
+        "correctOption": 0,
+        "points": 10
+      }
+    ],
+    "intermediate":[
+      {
+        "question": "What is the difference between shallow rendering and full rendering in React testing library?",
+        "options": [
+          "Shallow rendering only renders the component itself, while full rendering renders the component and its children.",
+          "Shallow rendering is faster than full rendering.",
+          "Shallow rendering is used for unit testing, while full rendering is used for integration testing.",
+          "All of the above."
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useMemo` hook in React?",
+        "options": [
+          "To memoize the result of a function call to avoid unnecessary recalculations.",
+          "To manage side effects in functional components.",
+          "To handle asynchronous operations.",
+          "To create a reference to a DOM element."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+
+
+      {
+        "question": "Which of the following is NOT a common performance optimization technique in React?",
+        "options": [
+          "Memoization",
+          "Code splitting",
+          "Using the `useEffect` hook without dependencies",
+          "Lazy loading components"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "How can you prevent a component from re-rendering in React?",
+        "options": [
+          "Using `React.memo` for functional components.",
+          "Using `shouldComponentUpdate` lifecycle method in class components.",
+          "Using `useCallback` to memoize callback functions.",
+          "All of the above."
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+  
+
+
+      {
+        "question": "When would you use the `useContext` hook over props drilling?",
+        "options": [
+          "To share data between components that are deeply nested.",
+          "To manage local component state.",
+          "To fetch data from an API.",
+          "To create custom hooks."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+
+      {
+        "question": "Which of the following is true about React Context API?",
+        "options": [
+          "It is used to pass data through the component tree without having to pass props down manually at every level.",
+          "It is a state management library like Redux.",
+          "It can only be used with functional components.",
+          "It replaces the need for React hooks."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+  
+      {
+        "question": "What is the purpose of error boundaries in React?",
+        "options": [
+          "To handle errors in child components and prevent application crashes.",
+          "To optimize component rendering performance.",
+          "To manage component state.",
+          "To create custom hooks."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is NOT a common data fetching approach in React?",
+        "options": [
+          "Using the `fetch` API",
+          "Using the `axios` library",
+          "Using the `useState` hook",
+          "Using GraphQL"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is the difference between `useEffect` and `useLayoutEffect` hooks?",
+        "options": [
+          "`useEffect` runs asynchronously after the render is committed to the screen, while `useLayoutEffect` runs synchronously after all DOM mutations.",
+          "`useEffect` is used for side effects, while `useLayoutEffect` is used for layout effects.",
+          "`useEffect` can only be used in functional components, while `useLayoutEffect` can be used in both functional and class components.",
+          "There is no difference between them."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+  
+
+
+      {
+        "question": "What is the primary benefit of code splitting in React?",
+        "options": [
+          "Improved component performance.",
+          "Smaller bundle sizes and faster load times.",
+          "Better code organization.",
+          "Easier state management."
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "When would you use a custom hook in React?",
+        "options": [
+          "To encapsulate reusable logic.",
+          "To manage component state.",
+          "To fetch data from an API.",
+          "To create higher-order components."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is NOT a core concept of React Context API?",
+        "options": [
+          "Provider",
+          "Consumer",
+          "Reducer",
+          "Value"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is the primary use of the `useMemo` hook?",
+        "options": [
+          "Memoizing callback functions.",
+          "Memoizing expensive calculations.",
+          "Managing component state.",
+          "Handling side effects."
+        ],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is NOT a valid ref type in React?",
+        "options": [
+          "Callback ref",
+          "String ref",
+          "Object ref",
+          "CreateRef"
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+
+      {
+        "question": "Which of the following is NOT a valid way to handle state in a React application?",
+        "options": [
+          "Using the `useState` hook.",
+          "Using the `useReducer` hook.",
+          "Using the `useContext` hook.",
+          "Using the `useEffect` hook."
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+
+      {
+        "question": "What is the purpose of the `useRef` hook in React?",
+        "options": [
+          "To create a mutable object that persists for the lifetime of the component.",
+          "To manage state in functional components.",
+          "To handle side effects in functional components.",
+          "To memoize the result of a function call."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is true about React keys?",
+        "options": [
+          "Keys help React identify which items have changed, are added, or are removed.",
+          "Keys should be unique among siblings.",
+          "Keys should not be used as a prop to pass data.",
+          "All of the above."
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the difference between controlled and uncontrolled components in React?",
+        "options": [
+          "Controlled components have their state managed by React, while uncontrolled components manage their own state.",
+          "Controlled components use refs, while uncontrolled components use state.",
+          "Controlled components are used for forms, while uncontrolled components are used for other UI elements.",
+          "There is no difference between them."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How can you optimize the performance of a React application?",
+        "options": [
+          "Using React.memo to memoize functional components.",
+          "Using the `useCallback` and `useMemo` hooks to memoize functions and values.",
+          "Code splitting with React.lazy and Suspense.",
+          "All of the above."
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useReducer` hook in React?",
+        "options": [
+          "To manage complex state logic in functional components.",
+          "To handle side effects in functional components.",
+          "To create a reference to a DOM element.",
+          "To memoize the result of a function call."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is NOT a feature of React Router?",
+        "options": [
+          "Dynamic routing.",
+          "Nested routes.",
+          "Server-side rendering.",
+          "Route protection."
+        ],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useContext` hook in React?",
+        "options": [
+          "To access the value of a context in functional components.",
+          "To manage state in functional components.",
+          "To handle side effects in functional components.",
+          "To create a reference to a DOM element."
+        ],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "How can you handle errors in a React application?",
+        "options": [
+          "Using error boundaries.",
+          "Using try-catch blocks in event handlers.",
+          "Using the `componentDidCatch` lifecycle method in class components.",
+          "All of the above."
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the purpose of the `useEffect` hook's dependency array?",
+        "options": [
+          "To control when the effect runs.",
+          "To specify the values that the effect depends on.",
+          "To optimize performance by avoiding unnecessary re-runs of the effect.",
+          "All of the above."
+        ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is true about React fragments?",
+        "options": [
+          "They allow you to group a list of children without adding extra nodes to the DOM.",
+          "They are used to manage state in functional components.",
+          "They handle side effects in functional components.",
+          "They create a reference to a DOM element."
+        ],
+        "correctOption": 0,
+        "points": 10
+      }
+  
+    ],
+    "senior":[
+      {
+        "question": "Which state management solution would you typically prefer for a large-scale React application with complex data flow and multiple teams?",
+        "options": ["Redux", "Context API", "Zustand", "Recoil"],
+        "correctOption": 0, 
+        "points": 20
+      },
+      {
+        "question": "What is the most effective way to optimize performance when rendering large lists in React?",
+        "options": ["Using `window.requestAnimationFrame`", "Implementing virtualized lists", "Using `shouldComponentUpdate`", "Overusing `useMemo`"],
+        "correctOption": 1,
+        "points": 15
+      },
+      {
+        "question": "When considering server-side rendering (SSR), which of the following is NOT a primary benefit?",
+        "options": ["Improved SEO", "Faster initial load times", "Better user experience on slower devices", "Reduced bundle size"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "Which testing library is most commonly used for testing React components?",
+        "options": ["Jest", "React Testing Library", "Enzyme", "Mocha"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the primary advantage of using hooks over class components in modern React development?",
+        "options": ["Improved performance", "Simplified state management", "Better code organization", "All of the above"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "Which of the following is NOT a core principle of React Context API?",
+        "options": ["Provider", "Consumer", "Reducer", "Value"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "When would you choose to use a Higher Order Component (HOC) over a custom hook?",
+        "options": ["To share logic between components with different props", "To encapsulate stateful logic", "To create reusable components with additional props", "Both A and C"],
+        "correctOption": 3,
+        "points": 15
+      },
+
+      {
+        "question": "Which of the following is NOT a common code splitting strategy in React?",
+        "options": ["Dynamic imports", "import() syntax ", "React.lazy", "Code splitting by route"],
+        "correctOption": 3,
+        "points": 10
+      },
+
+      {
+        "question": "What is the primary goal of dependency injection in React?",
+        "options": ["Improving component reusability", "Enhancing testability", "Managing complex state", "Optimizing performance"],
+        "correctOption": 1,
+        "points": 10
+      },
+
+      {
+        "question": "Which of the following is NOT a common challenge when building React Native applications?",
+        "options": ["Performance optimization", "Cross-platform compatibility", "Lack of native component libraries", "Debugging and testing"],
+        "correctOption": 2,
+        "points": 5
+      }
+  
+  
+     
+  
+
+    ],
+    "bible":[
+
+
+      {
+        "question": "Who were the first two people created by God?",
+        "options": [ "Cain and Abel", "Noah and his wife","Adam and Eve", "Abraham and Sarah"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What was the first book of the Bible?",
+        "options": ["Exodus", "Leviticus", "Numbers","Genesis"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "Which sea did the Israelites cross on dry land?",
+        "options": ["Red Sea", "Dead Sea", "Mediterranean Sea", "Black Sea"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Who was the leader of the Israelites during the Exodus?",
+        "options": ["Joshua", "Moses",  "David", "Solomon"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Which prophet baptized Jesus?",
+        "options": ["Elijah", "Jeremiah", "Isaiah","John the Baptist"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "How many disciples did Jesus have?",
+        "options": ["7", "5","12",  "9"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is the last book of the New Testament?",
+        "options": ["Revelation",  "Hebrews",  "Jude",  "Peter"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Who betrayed Jesus?",
+        "options": [  "Peter",  "John","Judas Iscariot",  "Thomas"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "On what day did Jesus rise from the dead?",
+        "options": [  "Monday", "Sunday", "Wednesday",  "Friday"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the Holy Spirit often compared to?",
+        "options": ["Lion",  "Eagle","Dove",    "Ox"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "Who wrote the book of Psalms?",
+        "options": ["Solomon",  " David","Moses",  "Isaiah"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What is the central theme of the book of Proverbs?",
+        "options": [  "Love",  "Faith","Wisdom",  "Hope"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "Who was the prophet who foretold the birth of Jesus?",
+        "options": ["Jeremiah",  "Ezekiel", "Isaiah",   "Daniel"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "What is the longest book in the Bible?",
+        "options": ["Isaiah",  "Genesis","Psalms",    "Jeremiah"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "Which apostle is often called the 'doubting Thomas'?",
+        "options": ["Thomas",  "Peter",  "James",  "John"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What is the fruit of the Spirit?",
+        "options": [ "Faith, hope, love", "Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control", "Grace, mercy, peace",  "Wisdom, understanding, knowledge"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "Who was the first martyr of the Christian church?",
+        "options": ["James",  "John the Baptist",  "Peter","Stephen"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What is the name of the mountain where Moses received the Ten Commandments?",
+        "options": ["Mount Carmel",  "Mount Zion", "Mount Sinai",   "Mount   Olivet"],
+        "correctOption": 2,
+        "points": 10
+      },
+      {
+        "question": "Which book of the Bible tells the story of the life of Jesus?",
+        "options": ["Mark",  "Luke",  "John","Matthew" ],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "Who was the Queen of Sheba who visited Solomon?",
+        "options": ["Queen of Sheba",  "Queen Esther",  "Jezebel",  "Delilah"],
+        "correctOption": 0,
+        "points": 10
+      },
+
+      {
+        "question": "What is the significance of the number 70 in the Bible, particularly related to the concept of Jubilee?",
+        "options": ["It represents divine perfection", "It symbolizes the number of years for land to rest", "It signifies the complete cycle of human life", "It represents the number of nations descended from Noah"],
+        "correctOption": 1,
+        "points": 15
+      },
+      {
+        "question": "What is the specific prophecy in Isaiah 7:14 that Christians believe refers to Jesus Christ?",
+        "options": ["The birth of a son named Immanuel", "The coming of a great king", "The restoration of Israel", "The defeat of Assyria"],
+        "correctOption": 0,
+        "points": 15
+      },
+
+      {
+        "question": "Who was the high priest who tore his robes when Jesus claimed to be the Son of God?",
+        "options": ["Caiaphas", "Annas", "Pilate", "Herod"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What was the name of the rich young ruler who came to Jesus?",
+        "options": ["Nicodemus", "Zacchaeus", "Lazarus", "Joseph of Arimathea"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which book of the Bible primarily focuses on the life and ministry of John the Baptist?",
+        "options": ["Matthew", "Mark", "Luke", "John"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "What was the name of the city where Paul was converted on the road to Damascus?",
+        "options": ["Jerusalem", "Antioch", "Tarsus", "Damascus"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "Who was the mother of Samuel, the prophet?",
+        "options": ["Hannah", "Elizabeth", "Mary", "Deborah"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which book of the Bible contains the story of Jonah and the great fish?",
+        "options": ["Isaiah", "Jeremiah", "Ezekiel", "Jonah"],
+        "correctOption": 3,
+        "points": 10
+      },
+      {
+        "question": "What was the name of the first martyr in the early church?",
+        "options": ["Stephen", "James", "John the Baptist", "Peter"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which apostle is often associated with writing the book of Hebrews?",
+        "options": ["Peter", "Paul", "John", "James"],
+        "correctOption": 1,
+        "points": 10
+      },
+      {
+        "question": "What was the name of the woman caught in adultery who Jesus defended?",
+        "options": ["Adulteress", "Mary Magdalene", "Martha", "Lazarus"],
+        "correctOption": 0,
+        "points": 10
+      },
+      {
+        "question": "Which book of the Bible primarily focuses on the life and teachings of Jesus?",
+        "options": ["Matthew", "Mark", "Luke", "John"],
+        "correctOption": 0,
+        "points": 10
+      },
+  
+      {
+        "question": "In the book of Romans, what is the distinction between justification and sanctification?",
+        "options": ["Justification is God's declaration of innocence, while sanctification is the process of becoming holy", "Justification is a one-time event, while sanctification is a lifelong process", "Both terms refer to the same concept of salvation", "Justification is based on faith, while sanctification is based on works"],
+        "correctOption": 1,
+        "points": 15
+      },
+      {
+        "question": "What is the theological significance of the pre-existence of Christ, as understood by many Christian denominations?",
+        "options": ["It affirms Christ's divinity", "It explains the incarnation", "It justifies the Trinity", "It provides a basis for atonement"],
+        "correctOption": 0,
+        "points": 15
+      },
+      {
+        "question": "What is the difference between the covenants of works and grace, as outlined in the Bible?",
+        "options": ["The covenant of works is based on human obedience, while the covenant of grace is based on God's unmerited favor", "The covenant of works is for the Old Testament, while the covenant of grace is for the New Testament", "There is no significant difference between the two covenants", "The covenant of works promises eternal life, while the covenant of grace promises earthly blessings"],
+        "correctOption": 0,
+        "points": 15
+      }
+  
+
+      
+  
+    ],
+    "maths": [
+      {
+        "question": "What is the sum of 23 and 45?",
+        "options": ["68", "67", "69", "70"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "Subtract 15 from 32.",
+        "options": ["17", "18", "16", "19"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "Multiply 7 by 8.",
+        "options": ["54", "56", "58", "60"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Divide 24 by 3.",
+        "options": ["6", "7", "8", "9"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "What is the place value of 5 in the number 357?",
+        "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Find the average of 12, 15, and 18.",
+        "options": ["14", "15", "16", "17"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Calculate the area of a triangle with base 5 cm and height 8 cm.",
+        "options": ["20 cm²", "25 cm²", "30 cm²", "40 cm²"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "Solve for x: 3x - 7 = 14.",
+        "options": ["5", "6", "7", "8"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "What is the percentage increase from 50 to 60?",
+        "options": ["10%", "15%", "20%", "25%"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "If a train travels at 75 km/h for 4 hours, how far does it travel?",
+        "options": ["280 km", "300 km", "320 km", "340 km"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Find the lowest common multiple (LCM) of 6 and 9.",
+        "options": ["12", "15", "18", "21"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "If it is 11:20 AM now, what time will it be in 2 hours and 40 minutes?",
+        "options": ["2:00 PM", "2:20 PM", "2:40 PM", "3:00 PM"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "A bag contains 5 red marbles and 3 blue marbles. What is the probability of picking a red marble?",
+        "options": ["1/2", "2/3", "5/8", "3/8"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "Solve for x: x² - 4 = 0.",
+        "options": ["2", "-2", "2 and -2", "No solution"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "If the radius of a circle is 7 cm, what is its circumference (use π ≈ 22/7)?",
+        "options": ["44 cm", "88 cm", "110 cm", "132 cm"],
+        "correctOption": 1,
+        "points": 5
+      },
+                                                                      
+      {
+        "question": "If you have 3 apples and I give you 4 more, how many apples do you have?",
+        "options": ["6", "7", "8", "9"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "What is the shape with four equal sides called?",
+        "options": ["Square", "Rectangle", "Triangle", "Circle"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "How many minutes are there in an hour?",
+        "options": ["30", "45", "60", "75"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "What is the next number in the sequence: 2, 4, 6, 8, ...?",
+        "options": ["9", "10", "11", "12"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "If it is 9 AM now, what time will it be in 3 hours?",
+        "options": ["11 AM", "12 PM", "1 PM", "2 PM"],
+        "correctOption": 2,
+        "points": 5
+      },
+
+      {
+        "question": "What is the sum of 12 and 15?",
+        "options": ["25", "27", "28", "29"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Subtract 17 from 35.",
+        "options": ["16", "17", "18", "19"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "Multiply 9 by 7.",
+        "options": ["62", "63", "64", "65"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Divide 42 by 6.",
+        "options": ["6", "7", "8", "9"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "What is the place value of 7 in the number 472?",
+        "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "If you have 5 pencils and your friend gives you 3 more, how many pencils do you have?",
+        "options": ["7", "8", "9", "10"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "What shape has 5 sides?",
+        "options": ["Pentagon", "Hexagon", "Octagon", "Triangle"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "How many months are there in a year?",
+        "options": ["10", "11", "12", "13"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "What is the next number in the sequence: 3, 6, 9, 12, ...?",
+        "options": ["13", "14", "15", "16"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "If it is 3 PM now, what time will it be in 4 hours?",
+        "options": ["6 PM", "7 PM", "8 PM", "9 PM"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "Solve for x: 2x + 3 = 9",
+        "options": ["2", "3", "4", "5"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "What is the area of a rectangle with length 4 cm and width 3 cm?",
+        "options": ["7 cm²", "10 cm²", "12 cm²", "15 cm²"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "Simplify: 4y - 2y + y",
+        "options": ["3y", "4y", "5y", "6y"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "What is the value of x in the equation x² = 36?",
+        "options": ["6", "-6", "6 and -6", "No solution"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "Find the mean of the numbers 1, 3, 5, and 7.",
+        "options": ["3", "4", "5", "6"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "If a train travels at 80 km/h for 3 hours, how far does it travel?",
+        "options": ["210 km", "220 km", "230 km", "240 km"],
+        "correctOption": 3,
+        "points": 5
+      },
+      {
+        "question": "What is the value of cos 60 degrees?",
+        "options": ["1/2", "√3/2", "1", "0"],
+        "correctOption": 0,
+        "points": 5
+      }
+  
+    ],
+  "english":
+    [
+      {
+        "question": "What is the part of speech of the word 'quickly' in the sentence 'She ran quickly to the store'?",
+        "options": ["Noun", "Verb", "Adjective", "Adverb"],
+        "correctOption": 3,
+        "points": 5
+      },
+      {
+        "question": "Which sentence is grammatically correct?",
+        "options": ["Me and him went to the park.", "He and I went to the park.", "Him and me went to the park.", "I and him went to the park."],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "What is the synonym of the word 'beautiful'?",
+        "options": ["Ugly", "Pretty", "Handsome", "Lovely"],
+        "correctOption": 3,
+        "points": 5
+      },
+      {
+        "question": "Which sentence uses the correct punctuation?",
+        "options": ["I love to eat pizza, ice cream, and chocolate.", "I love to eat pizza ice cream and chocolate.", "I love to eat pizza, ice cream and, chocolate."],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "What is the main idea of the following paragraph: 'The old man walked slowly down the street. His hair was white and his face was wrinkled. He carried a cane and moved with difficulty.'",
+        "options": ["The old man was in a hurry.", "The old man was strong.", "The old man was weak and old.", "The old man was happy."],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "options": ["Receve",  "Receive", "Recieve","Believe"],
+        "correctOption": 3,
+        "points": 5
+      },
+      {
+        "question": "What is the antonym of the word 'happy'?",
+        "options": ["Joyful", "Glad", "Sad", "Cheerful"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "Which sentence uses the correct verb tense?",
+        "options": ["I goed to the store yesterday.", "I went to the store yesterday.", "I go to the store yesterday.", "I will go to the store yesterday."],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "What is the figure of speech used in the phrase 'The sky is crying'?",
+        "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "Which sentence is an example of a complex sentence?",
+        "options": ["The boy ran fast.", "She likes to read and write.", "Because it was raining, we stayed inside.", "The dog barked loudly."],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "What is the meaning of the idiom 'kick the bucket'?",
+        "options": ["To dance", "To die", "To travel", "To eat"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Which word is a proper noun?",
+        "options": ["city", "dog", "park", "London"],
+        "correctOption": 3,
+        "points": 5
+      },
+      {
+        "question": "What is the suffix in the word 'careful'?",
+        "options": ["care", "ful", "ca", "re"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Which sentence has a subject-verb agreement error?",
+        "options": ["The books are on the table.", "She writes poems.", "They is going to the party.", "He plays soccer."],
+        "correctOption": 2,
+        "points": 5
+      },
+
+      {
+        "question": "What is the literary device used in the phrase 'The old oak tree stood like a giant'?",
+        "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Which word is the odd one out: cat, dog, bird, table?",
+        "options": ["cat", "dog", "bird", "table"],
+        "correctOption": 3,
+        "points": 5
+      },
+      {
+        "question": "What is the past tense of 'go'?",
+        "options": ["goed", "gone", "went", "goesd"],
+        "correctOption": 2,
+        "points": 5
+      },
+      {
+        "question": "Which sentence is an example of passive voice?",
+        "options": ["The boy kicked the ball.", "The ball was kicked by the boy.", "The boy is kicking the ball.", "Kick the ball!"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "What is the meaning of the prefix 'pre-'?",
+        "options": ["after", "before", "during", "around"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "Which word is a synonym for 'courageous'?",
+        "options": ["fearful", "brave", "shy", "weak"],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "What is the main idea of a paragraph called?",
+        "options": ["topic sentence", "supporting detail", "conclusion", "summary"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "Which sentence is grammatically correct?",
+        "options": ["She is taller than me.", "She is taller than I.", "She is taller then me.", "She is taller then I."],
+        "correctOption": 1,
+        "points": 5
+      },
+      {
+        "question": "What is the figure of speech used in the phrase 'as brave as a lion'?",
+        "options": ["Simile", "Metaphor", "Personification", "Hyperbole"],
+        "correctOption": 0,
+        "points": 5
+      },
+      {
+        "question": "Which word is spelled correctly?",
+        "options": ["wierde",  "wierid", "wierd","weired"],
+        "correctOption": 2,
+        "points": 5
+      }
+
+
+  ]
+
+
+    
+  }
+     
+
+ 
